@@ -17,7 +17,7 @@ module.exports = {
     "no-cond-assign": 2,
 
     // disallow use of console (off by default in the node environment)
-    "no-console": 1,
+    "no-console": 2,
 
     // disallow use of constant expressions in conditions
     "no-constant-condition": 1,

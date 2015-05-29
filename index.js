@@ -289,7 +289,7 @@ module.exports = {
     "no-undef-init": 2,
 
     // disallow use of undefined variable (off by default)
-    "no-undefined": 2,
+    "no-undefined": 0,
 
     // disallow declaration of variables that are not used in the code
     "no-unused-vars": [

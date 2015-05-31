@@ -107,6 +107,9 @@ module.exports = {
      * They either prescribe a better way of doing something or help you avoid footguns.
      */
 
+    // enforces getter/setter pairs in objects (off by default)
+    "accessor-pairs": 0,
+
     // treat var statements as if they were block scoped (off by default)
     "block-scoped-var": 2,
 

@@ -456,6 +456,9 @@ module.exports = {
     // disallow wrapping of non-IIFE statements in parens
     "no-wrap-func": 2,
 
+    // require or disallow padding inside curly braces (off by default)
+    "object-curly-spacing": [1, "always"],
+
     // allow just one var statement per function (off by default)
     "one-var": 0,
 

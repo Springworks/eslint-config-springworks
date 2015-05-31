@@ -41,7 +41,7 @@ module.exports = {
     "no-empty": 2,
 
     // disallow the use of empty character classes in regular expressions
-    "no-empty-class": 2,
+    "no-empty-character-class": 2,
 
     // disallow assigning to the exception in a catch block
     "no-ex-assign": 2,

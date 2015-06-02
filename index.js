@@ -129,7 +129,7 @@ module.exports = {
     "dot-notation": 2,
 
     // enforces consistent newlines before or after dots (off by default)
-    "dot-location": [2, "object"],
+    "dot-location": [2, "property"],
 
     // require the use of === and !==
     "eqeqeq": 2,

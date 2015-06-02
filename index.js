@@ -41,7 +41,7 @@ module.exports = {
     "no-empty": 2,
 
     // disallow the use of empty character classes in regular expressions
-    "no-empty-class": 2,
+    "no-empty-character-class": 2,
 
     // disallow assigning to the exception in a catch block
     "no-ex-assign": 2,
@@ -106,6 +106,9 @@ module.exports = {
      * These are rules designed to prevent you from making mistakes.
      * They either prescribe a better way of doing something or help you avoid footguns.
      */
+
+    // enforces getter/setter pairs in objects (off by default)
+    "accessor-pairs": 0,
 
     // treat var statements as if they were block scoped (off by default)
     "block-scoped-var": 2,
@@ -375,6 +378,15 @@ module.exports = {
       }
     ],
 
+    // enforces empty lines around comments (off by default)
+    "lines-around-comment": [
+      1,
+      {
+        "beforeBlockComment": true,
+        "beforeLineComment": true
+      }
+    ],
+
     // disallow mixed "LF" and "CRLF" as linebreaks (off by default)
     "linebreak-style": [2, "unix"],
 
@@ -443,6 +455,9 @@ module.exports = {
 
     // disallow wrapping of non-IIFE statements in parens
     "no-wrap-func": 2,
+
+    // require or disallow padding inside curly braces (off by default)
+    "object-curly-spacing": [1, "always"],
 
     // allow just one var statement per function (off by default)
     "one-var": 0,

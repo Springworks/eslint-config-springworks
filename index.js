@@ -383,7 +383,9 @@ module.exports = {
       1,
       {
         "beforeBlockComment": true,
-        "beforeLineComment": true
+        "afterBlockComment": false,
+        "beforeLineComment": true,
+        "afterLineComment": false
       }
     ],
 

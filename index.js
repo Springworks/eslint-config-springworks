@@ -379,15 +379,7 @@ module.exports = {
     ],
 
     // enforces empty lines around comments (off by default)
-    "lines-around-comment": [
-      1,
-      {
-        "beforeBlockComment": true,
-        "afterBlockComment": false,
-        "beforeLineComment": true,
-        "afterLineComment": false
-      }
-    ],
+    "lines-around-comment": 0,
 
     // disallow mixed "LF" and "CRLF" as linebreaks (off by default)
     "linebreak-style": [2, "unix"],

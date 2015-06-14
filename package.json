@@ -3,25 +3,22 @@
   "version": "2.0.2",
   "description": "ESLint configurations used by Springworks",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Springworks/eslint-config-springworks.git"
+  "author": "Springworks",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=0.22.1 <1.0.0",
+    "eslint-plugin-mocha": ">=0.2.2 <1.0.0"
   },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "author": "Springworks",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Springworks/eslint-config-springworks.git"
+  },
   "bugs": {
     "url": "https://github.com/Springworks/eslint-config-springworks/issues"
   },
-  "homepage": "https://github.com/Springworks/eslint-config-springworks#readme",
-  "peerDependencies": {
-    "eslint": "^0.22.1",
-    "eslint-plugin-mocha": "^0.2.2"
-  },
-  "optionalDependencies": {
-    "babel-eslint": "^3.1.9"
-  }
+  "homepage": "https://github.com/Springworks/eslint-config-springworks#readme"
 }

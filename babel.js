@@ -24,7 +24,10 @@ module.exports = {
     "no-var": 1,
 
     // require method and property shorthand syntax for object literals (off by default)
-    "object-shorthand": [1, "always"]
+    "object-shorthand": [1, "always"],
+
+    // suggest using of const declaration for variables that are never modified after declared (off by default)
+    "prefer-const": 1
 
   }
 };

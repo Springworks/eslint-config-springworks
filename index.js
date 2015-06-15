@@ -50,7 +50,7 @@ module.exports = {
     "no-extra-boolean-cast": 2,
 
     // disallow unnecessary parentheses (off by default)
-    "no-extra-parens": 1,
+    "no-extra-parens": 2,
 
     // disallow unnecessary semicolons
     "no-extra-semi": 2,
@@ -210,7 +210,7 @@ module.exports = {
     "no-octal-escape": 2,
 
     // disallow reassignment of function parameters (off by default)
-    "no-param-reassign": 1,
+    "no-param-reassign": 2,
 
     // disallow use of process.env (off by default)
     "no-process-env": 0,
@@ -337,7 +337,7 @@ module.exports = {
      */
 
     // this option sets a specific tab width for your code (off by default)
-    "indent": [1, 2, {"indentSwitchCase": true}],
+    "indent": [2, 2, {"indentSwitchCase": true}],
 
     // enforce one true brace style (off by default)
     "brace-style": [2, "stroustrup"],
@@ -409,7 +409,7 @@ module.exports = {
     "new-parens": 2,
 
     // allow/disallow an empty newline after var statement (off by default)
-    "newline-after-var": [0, "always"],
+    "newline-after-var": [1, "always"],
 
     // disallow use of the Array constructor
     "no-array-constructor": 2,
@@ -451,7 +451,7 @@ module.exports = {
     "no-unneeded-ternary": 2,
 
     // require or disallow padding inside curly braces (off by default)
-    "object-curly-spacing": [1, "always"],
+    "object-curly-spacing": [2, "always"],
 
     // allow just one var statement per function (off by default)
     "one-var": 0,
@@ -463,7 +463,7 @@ module.exports = {
     "operator-linebreak": [2, "after"],
 
     // enforce padding within blocks (off by default)
-    "padded-blocks": [1, "never"],
+    "padded-blocks": [2, "never"],
 
     // require quotes around object literal property names (off by default)
     "quote-props": [2, "as-needed"],

@@ -357,6 +357,9 @@ module.exports = {
     // enforce one true comma style (off by default)
     "comma-style": [2, "last"],
 
+    // require or disallow padding inside computed properties (off by default)
+    "computed-property-spacing": [2, "never"],
+
     // enforces consistent naming when capturing the current execution context (off by default)
     "consistent-this": [1, "self"],
 
@@ -447,9 +450,6 @@ module.exports = {
     // disallow the use of Boolean literals in conditional expressions (off by default)
     "no-unneeded-ternary": 2,
 
-    // disallow wrapping of non-IIFE statements in parens
-    "no-wrap-func": 2,
-
     // require or disallow padding inside curly braces (off by default)
     "object-curly-spacing": [1, "always"],
 
@@ -495,26 +495,6 @@ module.exports = {
     // require or disallow space before function opening parenthesis (off by default)
     "space-before-function-paren": [2, "never"],
 
-    // require or disallow spaces inside brackets (off by default)
-    "space-in-brackets": [
-      0,
-      "never",
-      {
-        // sets the spacing of a single value inside of square brackets of an array
-        "singleValue": false,
-        // sets the spacings between the curly braces and square brackets of object literals that are the first or last element in an array
-        "objectsInArrays": false,
-        // sets the spacing between the square brackets of array literals that are the first or last element in an array
-        "arraysInArrays": false,
-        // sets the spacing between the square bracket and the curly brace of an array literal that is the last element in an object
-        "arraysInObjects": false,
-        // sets the spacing between the curly brace of an object literal that is the last element in an object and the curly brace of the containing object
-        "objectsInObjects": true,
-        // sets the spacing in square brackets of computed member expressions
-        "propertyName": false
-      }
-    ],
-
     // require or disallow spaces inside parentheses (off by default)
     "space-in-parens": [2, "never"],
 
@@ -527,8 +507,8 @@ module.exports = {
     // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
     "space-unary-ops": 2,
 
-    // require or disallow a space immediately following the // in a line comment (off by default)
-    "spaced-line-comment": [1, "always"],
+    // require or disallow a space immediately following the // or /* in a comment (off by default)
+    "spaced-comment": [1, "always"],
 
     // require regex literals to be wrapped in parentheses (off by default)
     "wrap-regex": 1

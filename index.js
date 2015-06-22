@@ -328,6 +328,9 @@ module.exports = {
     // disallow process.exit() (on by default in the node environment)
     "no-process-exit": 2,
 
+    // restrict usage of specified node modules (off by default)
+    "no-restricted-modules": [1, "chai", "should", "should-http", "should-promised", "should-sinon", "sinon", "sinon-chai"],
+
     // disallow use of synchronous methods (off by default)
     "no-sync": 1,
 

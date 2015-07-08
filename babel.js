@@ -21,7 +21,7 @@ module.exports = {
     "constructor-super": 2,
 
     // enforce the spacing around the * in generator functions (off by default)
-    "generator-star-spacing": [2, "before"],
+    "generator-star-spacing": [2, { "before": true, "after": false }],
 
     // disallow to use this/super before super() calling in constructors. (off by default)
     "no-this-before-super": 2,

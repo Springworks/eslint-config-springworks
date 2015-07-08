@@ -225,7 +225,7 @@ module.exports = {
     "no-redeclare": 2,
 
     // disallow use of assignment in return statement
-    "no-return-assign": 2,
+    "no-return-assign": [2, "always"],
 
     // disallow use of javascript: urls.
     "no-script-url": 2,

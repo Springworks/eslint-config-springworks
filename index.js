@@ -342,6 +342,9 @@ module.exports = {
      * These rules are purely matters of style and are quite subjective.
      */
 
+    // enforce spacing inside array brackets (off by default)
+    "arrays-bracket-spacing": [2, "never"],
+
     // this option sets a specific tab width for your code (off by default)
     "indent": [2, 2, { "indentSwitchCase": true }],
 

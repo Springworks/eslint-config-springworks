@@ -17,6 +17,9 @@ module.exports = {
      * These rules are only relevant to ES6 environments and are off by default.
      */
 
+    // verify super() callings in constructors (off by default)
+    "constructor-super": 2,
+
     // enforce the spacing around the * in generator functions (off by default)
     "generator-star-spacing": [2, "before"],
 

@@ -23,6 +23,9 @@ module.exports = {
     // enforce the spacing around the * in generator functions (off by default)
     "generator-star-spacing": [2, "before"],
 
+    // disallow to use this/super before super() calling in constructors. (off by default)
+    "no-this-before-super": 2,
+
     // require let or const instead of var (off by default)
     "no-var": 1,
 

@@ -15,8 +15,7 @@ module.exports = {
     // Override to allow use of synchronous functions in tests. Useful when loading fixtures for example.
     "no-sync": 0,
 
-    // Increase the maximum depth callbacks can be nested.
-    "max-nested-callbacks": [1, 8],
+    "max-nested-callbacks": 0,
 
     "padded-blocks": 0,
 

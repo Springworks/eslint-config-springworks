@@ -101,6 +101,9 @@ module.exports = {
     // Ensure that the results of typeof are compared against a valid string
     "valid-typeof": 2,
 
+    // Avoid code that looks like two expressions but is actually one (off by default)
+    "no-unexpected-multiline": 2,
+
     /**
      * Best Practices
      * These are rules designed to prevent you from making mistakes.
@@ -222,7 +225,7 @@ module.exports = {
     "no-redeclare": 2,
 
     // disallow use of assignment in return statement
-    "no-return-assign": 2,
+    "no-return-assign": [2, "always"],
 
     // disallow use of javascript: urls.
     "no-script-url": 2,
@@ -339,8 +342,11 @@ module.exports = {
      * These rules are purely matters of style and are quite subjective.
      */
 
+    // enforce spacing inside array brackets (off by default)
+    "arrays-bracket-spacing": [2, "never"],
+
     // this option sets a specific tab width for your code (off by default)
-    "indent": [2, 2, {"indentSwitchCase": true}],
+    "indent": [2, 2, { "indentSwitchCase": true }],
 
     // enforce one true brace style (off by default)
     "brace-style": [2, "stroustrup"],
@@ -430,7 +436,7 @@ module.exports = {
     "no-mixed-spaces-and-tabs": 2,
 
     // disallow multiple empty lines (off by default)
-    "no-multiple-empty-lines": [2, {"max": 3}],
+    "no-multiple-empty-lines": [2, { "max": 3 }],
 
     // disallow nested ternary expressions (off by default)
     "no-nested-ternary": 2,

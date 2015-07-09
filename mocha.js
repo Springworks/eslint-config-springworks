@@ -22,6 +22,9 @@ module.exports = {
 
     "no-extra-parens": 0,
 
+    // Enforces handling of callbacks for async tests.
+    "mocha/handle-done-callback": 2,
+
     // Reminds you to remove .only from your tests.
     "mocha/no-exclusive-tests": 2
 

@@ -20,6 +20,9 @@ module.exports = {
     // require parens in arrow function arguments
     "arrow-parens": 0,
 
+    // require parens in arrow function arguments
+    "arrow-spacing": [2, { "before": true, "after": true }],
+
     // verify super() callings in constructors (off by default)
     "constructor-super": 2,
 

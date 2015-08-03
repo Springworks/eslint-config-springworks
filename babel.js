@@ -17,6 +17,9 @@ module.exports = {
      * These rules are only relevant to ES6 environments and are off by default.
      */
 
+    // require parens in arrow function arguments
+    "arrow-parens": 0,
+
     // verify super() callings in constructors (off by default)
     "constructor-super": 2,
 

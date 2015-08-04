@@ -48,7 +48,10 @@ module.exports = {
     "prefer-const": 1,
 
     // suggest using the spread operator instead of `.apply()`
-    "prefer-spread": 2
+    "prefer-spread": 2,
+
+    // disallow generator functions that do not have `yield`
+    "require-yield": 2
 
   }
 };

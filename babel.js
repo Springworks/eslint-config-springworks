@@ -50,6 +50,9 @@ module.exports = {
     // suggest using the spread operator instead of `.apply()`
     "prefer-spread": 2,
 
+    // suggest using Reflect methods where applicable
+    "prefer-reflect": 0,
+
     // disallow generator functions that do not have `yield`
     "require-yield": 2
 

@@ -218,8 +218,8 @@ module.exports = {
     // disallow use of octal escape sequences in string literals, such as var foo = "Copyright \251";
     "no-octal-escape": 2,
 
-    // disallow reassignment of function parameters (off by default)
-    "no-param-reassign": 2,
+    // disallow reassignment of function parameters
+    "no-param-reassign": [2, { "props": true }],
 
     // disallow use of process.env (off by default)
     "no-process-env": 0,

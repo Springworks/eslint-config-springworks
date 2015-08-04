@@ -242,6 +242,9 @@ module.exports = {
     // disallow usage of expressions in statement position
     "no-unused-expressions": 2,
 
+    // disallow unnecessary `.call()` and `.apply()`
+    "no-useless-call": 2,
+
     // disallow usage of configurable warning terms in comments, e.g. TODO or FIXME (off by default)
     "no-warning-comments": 1,
 

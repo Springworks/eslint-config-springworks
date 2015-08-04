@@ -173,6 +173,9 @@ module.exports = {
     // disallow the use of leading or trailing decimal points in numeric literals (off by default)
     "no-floating-decimal": 2,
 
+    // disallow the type conversions with shorter notations
+    "no-implicit-coercion": 0,
+
     // disallow use of eval()-like methods
     "no-implied-eval": 2,
 

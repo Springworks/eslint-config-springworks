@@ -45,7 +45,10 @@ module.exports = {
     "object-shorthand": [1, "always"],
 
     // suggest using of const declaration for variables that are never modified after declared (off by default)
-    "prefer-const": 1
+    "prefer-const": 1,
+
+    // suggest using the spread operator instead of `.apply()`
+    "prefer-spread": 2
 
   }
 };

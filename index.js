@@ -273,6 +273,9 @@ module.exports = {
      * These rules have to do with variable declarations.
      */
 
+    // enforce or disallow variable initializations at definition
+    "init-declarations": 0,
+
     // disallow the catch clause parameter name being the same as a variable in the outer scope (off by default in the node environment)
     "no-catch-shadow": 0,
 

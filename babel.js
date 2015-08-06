@@ -23,10 +23,10 @@ module.exports = {
     // require parens in arrow function arguments
     "arrow-spacing": [2, { "before": true, "after": true }],
 
-    // verify super() callings in constructors (off by default)
+    // verify super() callings in constructors
     "constructor-super": 2,
 
-    // enforce the spacing around the * in generator functions (off by default)
+    // enforce the spacing around the * in generator functions
     "generator-star-spacing": [2, { "before": true, "after": false }],
 
     // disallow modifying variables of class declarations
@@ -35,16 +35,16 @@ module.exports = {
     // disallow modifying variables that are declared using `const`
     "no-const-assign": 2,
 
-    // disallow to use this/super before super() calling in constructors. (off by default)
+    // disallow to use this/super before super() calling in constructors.
     "no-this-before-super": 2,
 
-    // require let or const instead of var (off by default)
+    // require let or const instead of var
     "no-var": 1,
 
-    // require method and property shorthand syntax for object literals (off by default)
+    // require method and property shorthand syntax for object literals
     "object-shorthand": [1, "always"],
 
-    // suggest using of const declaration for variables that are never modified after declared (off by default)
+    // suggest using of const declaration for variables that are never modified after declared
     "prefer-const": 1,
 
     // suggest using the spread operator instead of `.apply()`

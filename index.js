@@ -49,7 +49,7 @@ module.exports = {
     // disallow double-negation boolean casts in a boolean context
     "no-extra-boolean-cast": 2,
 
-    // disallow unnecessary parentheses (off by default)
+    // disallow unnecessary parentheses
     "no-extra-parens": 2,
 
     // disallow unnecessary semicolons
@@ -85,7 +85,7 @@ module.exports = {
     // disallow comparisons with the value NaN
     "use-isnan": 2,
 
-    // Ensure JSDoc comments are valid (off by default)
+    // Ensure JSDoc comments are valid
     "valid-jsdoc": [
       2,
       {
@@ -101,7 +101,7 @@ module.exports = {
     // Ensure that the results of typeof are compared against a valid string
     "valid-typeof": 2,
 
-    // Avoid code that looks like two expressions but is actually one (off by default)
+    // Avoid code that looks like two expressions but is actually one
     "no-unexpected-multiline": 2,
 
     /**
@@ -110,13 +110,13 @@ module.exports = {
      * They either prescribe a better way of doing something or help you avoid footguns.
      */
 
-    // enforces getter/setter pairs in objects (off by default)
+    // enforces getter/setter pairs in objects
     "accessor-pairs": 0,
 
-    // treat var statements as if they were block scoped (off by default)
+    // treat var statements as if they were block scoped
     "block-scoped-var": 2,
 
-    // specify the maximum cyclomatic complexity allowed in a program (off by default)
+    // specify the maximum cyclomatic complexity allowed in a program
     "complexity": 0,
 
     // require return statements to either always or never specify values
@@ -125,19 +125,19 @@ module.exports = {
     // specify curly brace conventions for all control statements
     "curly": [2, "all"],
 
-    // require default case in switch statements (off by default)
+    // require default case in switch statements
     "default-case": 2,
 
     // encourages use of dot notation whenever possible
     "dot-notation": 2,
 
-    // enforces consistent newlines before or after dots (off by default)
+    // enforces consistent newlines before or after dots
     "dot-location": [2, "property"],
 
     // require the use of === and !==
     "eqeqeq": 2,
 
-    // make sure for-in loops have an if statement (off by default)
+    // make sure for-in loops have an if statement
     "guard-for-in": 2,
 
     // disallow the use of alert, confirm, and prompt
@@ -146,16 +146,16 @@ module.exports = {
     // disallow use of arguments.caller or arguments.callee
     "no-caller": 2,
 
-    // disallow division operators explicitly at beginning of regular expression (off by default)
+    // disallow division operators explicitly at beginning of regular expression
     "no-div-regex": 2,
 
-    // disallow else after a return in an if (off by default)
+    // disallow else after a return in an if
     "no-else-return": 2,
 
     // disallow use of labels for anything other then loops and switches
     "no-empty-label": 2,
 
-    // disallow comparisons to null without a type-checking operator (off by default)
+    // disallow comparisons to null without a type-checking operator
     "no-eq-null": 2,
 
     // disallow use of eval()
@@ -170,7 +170,7 @@ module.exports = {
     // disallow fallthrough of case statements
     "no-fallthrough": 2,
 
-    // disallow the use of leading or trailing decimal points in numeric literals (off by default)
+    // disallow the use of leading or trailing decimal points in numeric literals
     "no-floating-decimal": 2,
 
     // disallow the type conversions with shorter notations
@@ -221,7 +221,7 @@ module.exports = {
     // disallow reassignment of function parameters
     "no-param-reassign": [2, { "props": true }],
 
-    // disallow use of process.env (off by default)
+    // disallow use of process.env
     "no-process-env": 0,
 
     // disallow usage of __proto__ property
@@ -236,13 +236,13 @@ module.exports = {
     // disallow use of javascript: urls.
     "no-script-url": 2,
 
-    // disallow comparisons where both sides are exactly the same (off by default)
+    // disallow comparisons where both sides are exactly the same
     "no-self-compare": 2,
 
     // disallow use of comma operator
     "no-sequences": 2,
 
-    // restrict what can be thrown as an exception (off by default)
+    // restrict what can be thrown as an exception
     "no-throw-literal": 2,
 
     // disallow usage of expressions in statement position
@@ -251,19 +251,19 @@ module.exports = {
     // disallow unnecessary `.call()` and `.apply()`
     "no-useless-call": 2,
 
-    // disallow usage of configurable warning terms in comments, e.g. TODO or FIXME (off by default)
+    // disallow usage of configurable warning terms in comments, e.g. TODO or FIXME
     "no-warning-comments": 1,
 
     // disallow use of the with statement
     "no-with": 2,
 
-    // require use of the second argument for parseInt() (off by default)
+    // require use of the second argument for parseInt()
     "radix": 2,
 
-    // requires to declare all vars on top of their containing scope (off by default)
+    // requires to declare all vars on top of their containing scope
     "vars-on-top": 0,
 
-    // require immediate function invocation to be wrapped in parentheses (off by default)
+    // require immediate function invocation to be wrapped in parentheses
     "wrap-iife": 2,
 
     // require or disallow Yoda conditions
@@ -306,7 +306,7 @@ module.exports = {
     // disallow use of undefined when initializing variables
     "no-undef-init": 2,
 
-    // disallow use of undefined variable (off by default)
+    // disallow use of undefined variable
     "no-undefined": 0,
 
     // disallow declaration of variables that are not used in the code
@@ -331,25 +331,25 @@ module.exports = {
     // enforce return after a callback
     "callback-return": [2, ["callback", "cb", "next", "done"]],
 
-    // enforces error handling in callbacks (off by default) (on by default in the node environment)
+    // enforces error handling in callbacks (on by default in the node environment)
     "handle-callback-err": [2, "^(.+_)?err(or)?$"],
 
-    // disallow mixing regular variable and require declarations (off by default) (on by default in the node environment)
+    // disallow mixing regular variable and require declarations (on by default in the node environment)
     "no-mixed-requires": [2, true],
 
-    // disallow use of new operator with the require function (off by default) (on by default in the node environment)
+    // disallow use of new operator with the require function (on by default in the node environment)
     "no-new-require": 2,
 
-    // disallow string concatenation with __dirname and __filename (off by default) (on by default in the node environment)
+    // disallow string concatenation with __dirname and __filename (on by default in the node environment)
     "no-path-concat": 2,
 
     // disallow process.exit() (on by default in the node environment)
     "no-process-exit": 2,
 
-    // restrict usage of specified node modules (off by default)
+    // restrict usage of specified node modules
     "no-restricted-modules": [1, "chai", "should", "should-http", "should-promised", "should-sinon", "sinon", "sinon-chai"],
 
-    // disallow use of synchronous methods (off by default)
+    // disallow use of synchronous methods
     "no-sync": 1,
 
     /**
@@ -357,13 +357,13 @@ module.exports = {
      * These rules are purely matters of style and are quite subjective.
      */
 
-    // enforce spacing inside array brackets (off by default)
+    // enforce spacing inside array brackets
     "array-bracket-spacing": [2, "never"],
 
-    // this option sets a specific tab width for your code (off by default)
+    // this option sets a specific tab width for your code
     "indent": [2, 2, { "indentSwitchCase": true }],
 
-    // enforce one true brace style (off by default)
+    // enforce one true brace style
     "brace-style": [2, "stroustrup"],
 
     // require camel case names
@@ -378,22 +378,22 @@ module.exports = {
       }
     ],
 
-    // enforce one true comma style (off by default)
+    // enforce one true comma style
     "comma-style": [2, "last"],
 
-    // require or disallow padding inside computed properties (off by default)
+    // require or disallow padding inside computed properties
     "computed-property-spacing": [2, "never"],
 
-    // enforces consistent naming when capturing the current execution context (off by default)
+    // enforces consistent naming when capturing the current execution context
     "consistent-this": [1, "self"],
 
     // enforce newline at the end of file, with no multiple empty lines
     "eol-last": 2,
 
-    // require function expressions to have a name (off by default)
+    // require function expressions to have a name
     "func-names": 0,
 
-    // enforces use of function declarations or expressions (off by default)
+    // enforces use of function declarations or expressions
     "func-style": [2, "declaration"],
 
     // enforces spacing between keys and values in object literal properties
@@ -405,13 +405,13 @@ module.exports = {
       }
     ],
 
-    // enforces empty lines around comments (off by default)
+    // enforces empty lines around comments
     "lines-around-comment": 0,
 
-    // disallow mixed "LF" and "CRLF" as linebreaks (off by default)
+    // disallow mixed "LF" and "CRLF" as linebreaks
     "linebreak-style": [2, "unix"],
 
-    // specify the maximum depth callbacks can be nested (off by default)
+    // specify the maximum depth callbacks can be nested
     "max-nested-callbacks": [1, 4],
 
     // require a capital letter for constructors
@@ -432,28 +432,28 @@ module.exports = {
     // disallow the omission of parentheses when invoking a constructor with no arguments
     "new-parens": 2,
 
-    // allow/disallow an empty newline after var statement (off by default)
+    // allow/disallow an empty newline after var statement
     "newline-after-var": 0,
 
     // disallow use of the Array constructor
     "no-array-constructor": 2,
 
-    // disallow use of the continue statement (off by default)
+    // disallow use of the continue statement
     "no-continue": 0,
 
-    // disallow comments inline after code (off by default)
+    // disallow comments inline after code
     "no-inline-comments": 0,
 
-    // disallow if as the only statement in an else block (off by default)
+    // disallow if as the only statement in an else block
     "no-lonely-if": 2,
 
     // disallow mixed spaces and tabs for indentation
     "no-mixed-spaces-and-tabs": 2,
 
-    // disallow multiple empty lines (off by default)
+    // disallow multiple empty lines
     "no-multiple-empty-lines": [2, { "max": 3 }],
 
-    // disallow nested ternary expressions (off by default)
+    // disallow nested ternary expressions
     "no-nested-ternary": 2,
 
     // disallow use of the Object constructor
@@ -462,7 +462,7 @@ module.exports = {
     // disallow space between function identifier and application
     "no-spaced-func": 2,
 
-    // disallow the use of ternary operators (off by default)
+    // disallow the use of ternary operators
     "no-ternary": 0,
 
     // disallow trailing whitespace at the end of lines
@@ -471,25 +471,25 @@ module.exports = {
     // disallow dangling underscores in identifiers
     "no-underscore-dangle": 0,
 
-    // disallow the use of Boolean literals in conditional expressions (off by default)
+    // disallow the use of Boolean literals in conditional expressions
     "no-unneeded-ternary": 2,
 
-    // require or disallow padding inside curly braces (off by default)
+    // require or disallow padding inside curly braces
     "object-curly-spacing": [2, "always"],
 
-    // allow just one var statement per function (off by default)
+    // allow just one var statement per function
     "one-var": 0,
 
-    // require assignment operator shorthand where possible or prohibit it entirely (off by default)
+    // require assignment operator shorthand where possible or prohibit it entirely
     "operator-assignment": 0,
 
-    // enforce operators to be placed before or after line breaks (off by default)
+    // enforce operators to be placed before or after line breaks
     "operator-linebreak": [2, "after"],
 
-    // enforce padding within blocks (off by default)
+    // enforce padding within blocks
     "padded-blocks": [2, "never"],
 
-    // require quotes around object literal property names (off by default)
+    // require quotes around object literal property names
     "quote-props": [2, "as-needed"],
 
     // specify whether double or single quotes should be used
@@ -507,19 +507,19 @@ module.exports = {
       }
     ],
 
-    // sort variables within the same declaration block (off by default)
+    // sort variables within the same declaration block
     "sort-vars": 0,
 
-    // require a space after certain keywords (off by default)
+    // require a space after certain keywords
     "space-after-keywords": [2, "always"],
 
-    // require or disallow space before blocks (off by default)
+    // require or disallow space before blocks
     "space-before-blocks": [2, "always"],
 
-    // require or disallow space before function opening parenthesis (off by default)
+    // require or disallow space before function opening parenthesis
     "space-before-function-paren": [2, "never"],
 
-    // require or disallow spaces inside parentheses (off by default)
+    // require or disallow spaces inside parentheses
     "space-in-parens": [2, "never"],
 
     // require spaces around operators
@@ -531,10 +531,10 @@ module.exports = {
     // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
     "space-unary-ops": 2,
 
-    // require or disallow a space immediately following the // or /* in a comment (off by default)
+    // require or disallow a space immediately following the // or /* in a comment
     "spaced-comment": 0,
 
-    // require regex literals to be wrapped in parentheses (off by default)
+    // require regex literals to be wrapped in parentheses
     "wrap-regex": 1
 
   }

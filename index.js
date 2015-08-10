@@ -361,7 +361,7 @@ module.exports = {
     "array-bracket-spacing": [2, "never"],
 
     // this option sets a specific tab width for your code
-    "indent": [2, 2, { "indentSwitchCase": true }],
+    "indent": [1, 2, { "SwitchCase": 1, "VariableDeclarator": 2 }],
 
     // enforce one true brace style
     "brace-style": [2, "stroustrup"],

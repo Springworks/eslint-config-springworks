@@ -18,7 +18,7 @@ module.exports = {
      */
 
     // require parens in arrow function arguments
-    "arrow-parens": 0,
+    "arrow-parens": [1, "as-needed"],
 
     // require parens in arrow function arguments
     "arrow-spacing": [2, { "before": true, "after": true }],

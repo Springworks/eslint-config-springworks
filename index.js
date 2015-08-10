@@ -329,7 +329,7 @@ module.exports = {
      */
 
     // enforce return after a callback
-    "callback-return": [2, ["callback", "cb", "next", "done"]],
+    "callback-return": [1, ["callback", "cb", "next", "done"]],
 
     // enforces error handling in callbacks (on by default in the node environment)
     "handle-callback-err": [2, "^(.+_)?err(or)?$"],

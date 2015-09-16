@@ -18,13 +18,13 @@ function exampleFunction(exampleParam) {
     1,
     2,
     3,
-    4
+    4,
   ];
 
   var exampleObject = { foo: 1, bar: 2 };
   var exampleMultilineObject = {
     foo: 1,
-    bar: 2
+    bar: 2,
   };
 
   // Example if statement

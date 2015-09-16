@@ -1,0 +1,47 @@
+{
+  "extends": "./",
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "strict": [
+      1,
+      "never"
+    ],
+    "arrow-parens": [
+      1,
+      "as-needed"
+    ],
+    "arrow-spacing": [
+      2,
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "constructor-super": 2,
+    "generator-star-spacing": [
+      2,
+      {
+        "before": true,
+        "after": false
+      }
+    ],
+    "no-class-assign": 2,
+    "no-const-assign": 2,
+    "no-dupe-class-members": 2,
+    "no-this-before-super": 2,
+    "no-var": 1,
+    "object-shorthand": [
+      1,
+      "always"
+    ],
+    "prefer-arrow-callback": 1,
+    "prefer-const": 1,
+    "prefer-spread": 2,
+    "prefer-reflect": 0,
+    "prefer-template": 1,
+    "require-yield": 2
+  }
+}

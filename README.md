@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Springworks/eslint-config-springworks.svg?branch=master)](https://travis-ci.org/Springworks/eslint-config-springworks)
+
 # eslint-config-springworks
 
 ESLint configurations used by [Springworks](http://www.springworks.se).

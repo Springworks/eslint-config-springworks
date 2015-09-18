@@ -296,6 +296,7 @@
       2,
       "always"
     ],
+    "space-before-keywords": [2, "always"],
     "space-before-blocks": [
       2,
       "always"

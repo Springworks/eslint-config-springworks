@@ -5,9 +5,18 @@
   "main": "index.js",
   "author": "Springworks",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint -c index-config.json --max-warnings 0 examples/example.js",
+    "lint-es6": "eslint -c babel-config.json --max-warnings 0 examples/example-es6.js",
+    "test": "npm run lint && npm run lint-es6"
+  },
   "peerDependencies": {
     "eslint": "^1.2.1",
     "eslint-plugin-mocha": ">=0.4.0 <1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.2",
+    "eslint": "^1.2.1"
   },
   "keywords": [
     "eslint",

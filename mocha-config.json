@@ -6,12 +6,12 @@
     "mocha"
   ],
   "rules": {
-    "no-wrap-func": 0,
-    "no-sync": 0,
     "max-nested-callbacks": 0,
-    "padded-blocks": 0,
-    "no-extra-parens": 0,
     "mocha/handle-done-callback": 2,
-    "mocha/no-exclusive-tests": 2
+    "mocha/no-exclusive-tests": 2,
+    "no-extra-parens": 0,
+    "no-sync": 0,
+    "no-wrap-func": 0,
+    "padded-blocks": 0
   }
 }

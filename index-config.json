@@ -149,6 +149,7 @@
         "reject"
       ]
     ],
+    "global-require": 1,
     "handle-callback-err": [
       2,
       "^(.+_)?err(or)?$"

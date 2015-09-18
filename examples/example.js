@@ -5,6 +5,8 @@
   If you change a rule and it does not apply to this example code, please extend this code.
 */
 
+require('assert');
+
 
 function otherExampleFunction() {
   return null;

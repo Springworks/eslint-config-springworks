@@ -102,7 +102,7 @@
     "no-proto": 2,
     "no-redeclare": 2,
     "no-regex-spaces": 2,
-    "no-restricted-modules": [1, "chai", "should", "should-http", "should-promised", "should-sinon", "sinon", "sinon-chai"],
+    "no-restricted-modules": [1, "bluebird", "chai", "should", "should-http", "should-promised", "should-sinon", "sinon", "sinon-chai"],
     "no-return-assign": [2, "always"],
     "no-script-url": 2,
     "no-self-compare": 2,

@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "babel-eslint": "4.1.3",
-    "eslint": "1.7.3"
+    "eslint": "1.8.0"
   },
   "keywords": [
     "eslint",

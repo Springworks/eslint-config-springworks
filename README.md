@@ -11,10 +11,10 @@ ESLint configurations used by [Springworks](http://www.springworks.se).
 $ npm i -DE eslint eslint-plugin-mocha eslint-config-springworks
 ```
 
-When extending `springworks/babel`, also install `babel-eslint`
+When extending `springworks/babel`, also install `babel-eslint` and `eslint-plugin-import`
 
 ```bash
-$ npm i -D babel-eslint
+$ npm i -D babel-eslint eslint-plugin-import
 ```
 
 

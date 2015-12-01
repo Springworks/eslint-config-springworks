@@ -2,7 +2,12 @@
   "env": {
     "node": true
   },
+  "plugins": [
+    "springworks"
+  ],
   "rules": {
+    "springworks/no-require-file-extension": 1,
+
     "accessor-pairs": 0,
     "array-bracket-spacing": [2, "never"],
     "block-scoped-var": 2,

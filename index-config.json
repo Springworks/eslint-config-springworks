@@ -12,7 +12,7 @@
     "array-bracket-spacing": [2, "never"],
     "block-scoped-var": 2,
     "brace-style": [2, "stroustrup"],
-    "callback-return": [1, ["callback", "cb", "next", "done", "resolve", "reject"]],
+    "callback-return": [2, ["callback", "cb", "next", "done", "resolve", "reject"]],
     "camelcase": 0,
     "comma-dangle": [1, "always-multiline"],
     "comma-spacing": [2, { "before": false, "after": true }],

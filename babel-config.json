@@ -1,9 +1,6 @@
 {
   "extends": "./index-config.json",
   "parser": "babel-eslint",
-  "env": {
-    "es6": true
-  },
   "plugins": [
     "import"
   ],
@@ -18,22 +15,7 @@
     "import/no-require": 0,
     "import/no-unresolved": 2,
 
-    "arrow-parens": [1, "as-needed"],
-    "arrow-spacing": [2, { "before": true, "after": true }],
-    "constructor-super": 2,
-    "generator-star-spacing": [2, { "before": true, "after": false }],
-    "no-class-assign": 2,
-    "no-const-assign": 2,
-    "no-dupe-class-members": 2,
-    "no-this-before-super": 2,
-    "no-var": 1,
-    "object-shorthand": [1, "methods"],
-    "prefer-arrow-callback": 1,
-    "prefer-const": 1,
-    "prefer-reflect": 0,
     "prefer-spread": 2,
-    "prefer-template": 1,
-    "require-yield": 2,
     "strict": [1, "never"]
   }
 }

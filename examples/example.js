@@ -12,33 +12,33 @@ function otherExampleFunction() {
   return null;
 }
 
-function exampleFunction(exampleParam) {
-  var exampleStrVariable = exampleParam + 'otherExampleString';
-  var exampleNumVariable = 10.0;
+function exampleFunction(example_param) {
+  const str = `a ${example_param} b`;
+  const num = 10.0;
 
-  var exampleArray = [1, 2, 3, 4];
-  var exampleMultilineArray = [
+  const array = [1, 2, 3, 4];
+  const multiline_array = [
     1,
     2,
     3,
     4,
   ];
 
-  var exampleObject = { foo: 1, bar: 2 };
-  var exampleMultilineObject = {
+  const object = { foo: 1, bar: 2 };
+  const multiline_object = {
     foo: 1,
     bar: 2,
   };
 
   // Example if statement
-  if (exampleNumVariable > exampleStrVariable.length) {
+  if (num > str.length) {
     otherExampleFunction(10.0);
   }
-  else if (exampleNumVariable > 5) {
-    otherExampleFunction([exampleObject, exampleMultilineObject]);
+  else if (num > 5) {
+    otherExampleFunction([object, multiline_object]);
   }
   else {
-    otherExampleFunction({ foo: exampleArray, bar: exampleMultilineArray });
+    otherExampleFunction({ foo: array, bar: multiline_array });
   }
 }
 

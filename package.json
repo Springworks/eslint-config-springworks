@@ -17,7 +17,7 @@
     "eslint-plugin-springworks": "^1.1.1"
   },
   "devDependencies": {
-    "babel-eslint": "4.1.7",
+    "babel-eslint": "4.1.8",
     "eslint": "1.10.3",
     "eslint-plugin-import": "0.12.1",
     "eslint-plugin-mocha": "1.1.0",

@@ -19,7 +19,7 @@
   "devDependencies": {
     "babel-eslint": "4.1.8",
     "eslint": "1.10.3",
-    "eslint-plugin-import": "0.12.2",
+    "eslint-plugin-import": "0.13.0",
     "eslint-plugin-mocha": "1.1.0",
     "eslint-plugin-springworks": "1.1.1"
   },

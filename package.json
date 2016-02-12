@@ -11,7 +11,7 @@
     "test": "npm run lint && npm run lint-es6"
   },
   "peerDependencies": {
-    "eslint": "^1.8.0",
+    "eslint": "^2.0.0",
     "eslint-plugin-import": ">=0.8.1 <1.0.0",
     "eslint-plugin-mocha": "^1.0.0",
     "eslint-plugin-springworks": "^1.1.1"

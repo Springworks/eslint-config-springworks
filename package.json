@@ -11,15 +11,15 @@
     "test": "npm run lint && npm run lint-es6"
   },
   "peerDependencies": {
-    "eslint": "^2.0.0",
-    "eslint-plugin-import": ">=0.8.1 <1.0.0",
+    "eslint": "^2.1.0",
+    "eslint-plugin-import": ">=0.13.0 <1.0.0 || 1.0.0-beta.0 || ^1.0.0",
     "eslint-plugin-mocha": "^2.0.0",
     "eslint-plugin-springworks": "^1.1.2"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.8",
-    "eslint": "^2.0.0",
-    "eslint-plugin-import": "^0.13.0",
+    "eslint": "^2.1.0",
+    "eslint-plugin-import": "1.0.0-beta.0 || ^1.0.0",
     "eslint-plugin-mocha": "^2.0.0",
     "eslint-plugin-springworks": "^1.1.2"
   },

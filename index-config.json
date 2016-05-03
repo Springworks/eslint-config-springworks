@@ -7,7 +7,6 @@
     "springworks"
   ],
   "rules": {
-    "springworks/fixable-comma-dangle": [2, "always-multiline"],
     "springworks/no-require-file-extension": 2,
 
     "array-bracket-spacing": [2, "never"],
@@ -16,6 +15,7 @@
     "block-scoped-var": 2,
     "brace-style": [2, "stroustrup"],
     "callback-return": [2, ["callback", "cb", "next", "done", "resolve", "reject"]],
+    "comma-dangle": [2, "always-multiline"],
     "comma-spacing": [2, { "before": false, "after": true }],
     "comma-style": [2, "last"],
     "complexity": 0,

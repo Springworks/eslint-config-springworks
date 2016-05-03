@@ -139,6 +139,7 @@
     "no-useless-call": 2,
     "no-var": 2,
     "no-warning-comments": 1,
+    "no-whitespace-before-property": 2,
     "no-with": 2,
     "object-curly-spacing": [2, "always"],
     "object-shorthand": [1, "methods"],

@@ -16,14 +16,14 @@
     "eslint-plugin-springworks": ">=1.1.2"
   },
   "devDependencies": {
-    "babel-eslint": "^6.0.4",
-    "eslint": "^2.9.0",
-    "eslint-plugin-import": "^1.6.1",
-    "eslint-plugin-mocha": "^2.2.0",
-    "eslint-plugin-springworks": "^2.0.0",
-    "pre-git": "^3.8.3",
-    "semantic-release": "^4.3.5",
-    "tap": "^5.7.1"
+    "babel-eslint": "6.0.4",
+    "eslint": "2.10.2",
+    "eslint-plugin-import": "1.8.0",
+    "eslint-plugin-mocha": "2.2.0",
+    "eslint-plugin-springworks": "2.0.1",
+    "pre-git": "3.8.4",
+    "semantic-release": "4.3.5",
+    "tap": "5.7.2"
   },
   "config": {
     "pre-git": {

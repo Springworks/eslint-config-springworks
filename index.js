@@ -156,7 +156,6 @@ module.exports = {
     "prefer-template": 1,
     "quote-props": [2, "as-needed"],
     "quotes": [2, "single", "avoid-escape"],
-    "radix": 2,
     "require-yield": 2,
     "semi": [2, "always"],
     "semi-spacing": [2, { "before": false, "after": true }],

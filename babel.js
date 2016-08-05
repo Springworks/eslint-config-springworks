@@ -13,7 +13,7 @@ module.exports = {
     "import/no-duplicates": 0,
     "import/no-named-as-default": 2,
     "import/no-require": 0,
-    "import/no-unresolved": 2,
+    "import/no-unresolved": [2, { "commonjs": true }],
 
     "no-duplicate-imports": 2,
     "prefer-spread": 2,

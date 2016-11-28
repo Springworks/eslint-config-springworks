@@ -166,6 +166,7 @@ module.exports = {
     "space-unary-ops": 2,
     "spaced-comment": 0,
     "strict": [2, "global"],
+    "template-curly-spacing": 1,
     "use-isnan": 2,
     "valid-jsdoc": [2, { "prefer": { "returns": "return" }, "requireReturn": false, "requireParamDescription": false, "requireReturnDescription": false }],
     "valid-typeof": 2,

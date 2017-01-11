@@ -10,7 +10,7 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "peerDependencies": {
-    "eslint": ">=2.9.0",
+    "eslint": ">=3.8.1",
     "eslint-plugin-import": ">=1.0.0",
     "eslint-plugin-mocha": ">=2.0.0",
     "eslint-plugin-springworks": ">=1.1.2"

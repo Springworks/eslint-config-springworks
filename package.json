@@ -11,7 +11,7 @@
   },
   "peerDependencies": {
     "eslint": ">=2.9.0",
-    "eslint-plugin-import": ">=1.0.0",
+    "eslint-plugin-import": ">=1.10.2",
     "eslint-plugin-mocha": ">=2.0.0",
     "eslint-plugin-springworks": ">=1.1.2"
   },

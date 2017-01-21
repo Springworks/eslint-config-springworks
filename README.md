@@ -2,6 +2,8 @@
 
 # eslint-config-springworks
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Springworks/eslint-config-springworks.svg)](https://greenkeeper.io/)
+
 ESLint configurations used by [Springworks](http://www.springworks.se).
 
 

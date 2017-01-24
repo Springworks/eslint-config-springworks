@@ -1,5 +1,7 @@
 # eslint-config-springworks
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Springworks/eslint-config-springworks.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/Springworks/eslint-config-springworks.svg?branch=master)](https://travis-ci.org/Springworks/eslint-config-springworks)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Springworks/eslint-config-springworks.svg)](https://greenkeeper.io/)
 

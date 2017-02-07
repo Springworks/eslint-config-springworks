@@ -23,7 +23,7 @@
     "eslint-plugin-springworks": "2.0.1",
     "pre-git": "3.12.1",
     "semantic-release": "6.3.2",
-    "tap": "10.0.1"
+    "tap": "10.1.0"
   },
   "config": {
     "pre-git": {

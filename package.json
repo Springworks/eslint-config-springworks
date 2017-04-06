@@ -10,20 +10,20 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "peerDependencies": {
-    "eslint": ">=2.9.0",
-    "eslint-plugin-import": ">=1.0.0",
-    "eslint-plugin-mocha": ">=2.0.0",
-    "eslint-plugin-springworks": ">=1.1.2"
+    "eslint": ">=3.19.0",
+    "eslint-plugin-import": ">=2.2.0",
+    "eslint-plugin-mocha": ">=4.9.0",
+    "eslint-plugin-springworks": ">=2.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "7.1.1",
-    "eslint": "3.17.1",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-mocha": "4.8.0",
-    "eslint-plugin-springworks": "2.0.1",
-    "pre-git": "3.14.0",
-    "semantic-release": "6.3.2",
-    "tap": "10.3.0"
+    "babel-eslint": "^7.2.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "eslint-plugin-springworks": "^2.1.0",
+    "pre-git": "^3.14.0",
+    "semantic-release": "^6.3.2",
+    "tap": "^10.3.1"
   },
   "config": {
     "pre-git": {

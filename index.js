@@ -7,7 +7,7 @@ module.exports = {
     "springworks"
   ],
   "rules": {
-    "springworks/no-logger-format-payload": 2,
+    "springworks/no-logger-format-payload": 1,
     "springworks/no-require-file-extension": 2,
 
     "array-bracket-spacing": [2, "never"],

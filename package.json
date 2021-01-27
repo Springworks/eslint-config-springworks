@@ -39,5 +39,14 @@
   "release": {
     "analyzeCommits": "simple-commit-message"
   },
-  "dependencies": {}
+  "config": {
+    "pre-git": {
+      "commit-msg": "simple",
+      "pre-commit": [],
+      "pre-push": [],
+      "post-commit": [],
+      "post-checkout": [],
+      "post-merge": []
+    }
+  }
 }

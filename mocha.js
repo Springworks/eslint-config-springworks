@@ -7,8 +7,6 @@ module.exports = {
     "mocha"
   ],
   "rules": {
-    "springworks/top-describe-path": 2,
-
     "mocha/handle-done-callback": 2,
     "mocha/no-exclusive-tests": 2,
 

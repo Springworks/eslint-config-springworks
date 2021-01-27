@@ -22,7 +22,6 @@
     "eslint-plugin-mocha": "^4.9.0",
     "eslint-plugin-springworks": "^2.1.0",
     "pre-git": "^3.14.0",
-    "semantic-release": "^6.3.2",
     "tap": "^10.3.1"
   },
   "config": {
@@ -41,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/Springworks/eslint-config-springworks/issues"
   },
-  "homepage": "https://github.com/Springworks/eslint-config-springworks#readme"
+  "homepage": "https://github.com/Springworks/eslint-config-springworks#readme",
+  "release": {
+    "analyzeCommits": "simple-commit-message"
+  }
 }

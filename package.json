@@ -6,28 +6,22 @@
   "license": "MIT",
   "scripts": {
     "test": "tap test/test.js",
-    "commit": "commit-wizard",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "commit": "commit-wizard"
   },
   "peerDependencies": {
     "eslint": ">=3.19.0",
     "eslint-plugin-import": ">=2.2.0",
     "eslint-plugin-mocha": ">=4.9.0",
-    "eslint-plugin-springworks": ">=2.1.0"
+    "eslint-plugin-springworks": ">=2.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.1",
     "eslint": "^4.3.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-mocha": "^4.9.0",
-    "eslint-plugin-springworks": "^2.1.0",
+    "eslint-plugin-springworks": "^2.2.0",
     "pre-git": "^3.14.0",
     "tap": "^14.11.0"
-  },
-  "config": {
-    "pre-git": {
-      "commit-msg": "conventional"
-    }
   },
   "keywords": [
     "eslint",
@@ -43,5 +37,6 @@
   "homepage": "https://github.com/Springworks/eslint-config-springworks#readme",
   "release": {
     "analyzeCommits": "simple-commit-message"
-  }
+  },
+  "dependencies": {}
 }

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-springworks",
-  "version": "7.0.13",
+  "version": "7.1.0",
   "description": "ESLint configurations used by Springworks",
   "main": "index.js",
   "author": "Springworks",

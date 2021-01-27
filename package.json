@@ -23,11 +23,6 @@
     "pre-git": "^3.14.0",
     "tap": "^14.11.0"
   },
-  "config": {
-    "pre-git": {
-      "commit-msg": "conventional"
-    }
-  },
   "keywords": [
     "eslint",
     "eslintconfig"

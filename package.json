@@ -6,8 +6,7 @@
   "license": "MIT",
   "scripts": {
     "test": "tap test/test.js",
-    "commit": "commit-wizard",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "commit": "commit-wizard"
   },
   "peerDependencies": {
     "eslint": ">=3.19.0",
@@ -43,5 +42,6 @@
   "homepage": "https://github.com/Springworks/eslint-config-springworks#readme",
   "release": {
     "analyzeCommits": "simple-commit-message"
-  }
+  },
+  "dependencies": {}
 }
